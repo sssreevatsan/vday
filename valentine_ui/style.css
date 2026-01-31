@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, lavender, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #4B0082;
+    margin-bottom: 20px;
+}
+
+.cat-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#yes-button {
+    background-color: #FF69B4;
+    color: white;
+}
+
+#yes-button:hover {
+    transform: scale(1.2);
+}
+
+#no-button {
+    background-color: #FF6347;
+    color: white;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+.yaay-image {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
